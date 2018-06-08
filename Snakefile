@@ -221,7 +221,7 @@ rule meraculous_config:
     run:
         my_fastq = resolve_path(input.fastq)
         if wildcards.strain == 'MA3':
-            my_dmin = '19'
+            my_dmin = '38'
 #            with open(input.dmin_file) as x:
 #                my_dmin = x.read()
         else:
