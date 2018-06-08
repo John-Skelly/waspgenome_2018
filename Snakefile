@@ -95,10 +95,7 @@ busco_targets = [('output/busco/'
 target
 rule all:
     input:
-        "'output/meraculous/FR1/norm/k_71/diplo_1/'
-         'meraculous_final_results/final.scaffolds.fa'",
-        "'output/meraculous/MA3/trim_decon/k_71/diplo_0/'
-         'meraculous_final_results/final.scaffolds.fa'"
+        "output/meraculous/FR1/norm/k_71/diplo_1/meraculous_final_results/final.scaffolds.fa"
         
 
 #rule dmin_targets:
