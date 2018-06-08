@@ -92,7 +92,7 @@ busco_targets = [('output/busco/'
 #                'meraculous_final_results/final.scaffolds.fa'),
 #               strain=all_samples, read_set=read_set, k=k, diploid_mode=diploid_mode)
 
-target
+#target
 rule all:
     input:
         "output/meraculous/FR1/norm/k_71/diplo_1/meraculous_final_results/final.scaffolds.fa"
