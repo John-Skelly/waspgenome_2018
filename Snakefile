@@ -95,7 +95,7 @@ busco_targets = [('output/busco/'
 #target
 rule all:
     input:
-        "output/meraculous/FR1/norm/k_71/diplo_1/meraculous_final_results/final.scaffolds.fa",
+#        "output/meraculous/FR1/norm/k_71/diplo_1/meraculous_final_results/final.scaffolds.fa",
         "output/meraculous/MA3/trim_decon/k_71/diplo_0/meraculous_final_results/final.scaffolds.fa"
         
 
@@ -221,7 +221,7 @@ rule meraculous_config:
     run:
         my_fastq = resolve_path(input.fastq)
         if wildcards.strain == 'MA3':
-            my_dmin = '38'
+            my_dmin = '28'
 #            with open(input.dmin_file) as x:
 #                my_dmin = x.read()
         else:
